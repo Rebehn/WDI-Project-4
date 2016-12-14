@@ -45,4 +45,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   Rails.application.config.action_cable.allowed_request_origins = ['http://localhost:8000']
+  # Rails.application.config.action_cable.allowed_request_origins = ['http://10.1.6.67:8000']
 end
