@@ -3,6 +3,7 @@ class AuthController < ApplicationController
 
   def register
     user = User.new(user_params)
+    user.image = 'http://vignette2.wikia.nocookie.net/naginoasukara/images/8/86/Placeholder_person.png/revision/latest?cb=20130924151342'
     if user.save
       token = Auth.issue({id: user.id})
       render json: { token: token, user: UserSerializer.new(user) }, status: :ok

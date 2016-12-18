@@ -43,7 +43,7 @@ User.create!([{
   email: "becky@example.com",
   password: "password",
   password_confirmation: "password",
-  image: "http://www.hotel-r.net/im/hotel/cz/aaron-12.jpg"
+  image: "http://cdn2.yourmodernfamily.com/wp-content/uploads/2014/07/Becky-Mansfield-profile-picture.jpg"
 },{
   username: "Bryan",
   email: "bryan@example.com",
@@ -116,4 +116,70 @@ User.create!([{
   password: "password",
   password_confirmation: "password",
   image: "http://www.jamrockmagazine.com/wp-content/uploads/2013/01/Eve_HHUCIT.jpg"
+},{
+  username: "Gary",
+  email: "gary@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://vignette4.wikia.nocookie.net/eastenders-two/images/f/fd/Ricky_Groves.jpg/revision/latest?cb=20140930182313"
+},{
+  username: "Gavin",
+  email: "gavin@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2009/4/3/1238750315363/Mathew-Horne-001.jpg"
+},{
+  username: "Gabrielle",
+  email: "gabrielle@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://thesource.com/wp-content/uploads/2016/10/Gabrielle-Union-.jpg"
+},{
+  username: "Gwen",
+  email: "gwen@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://pixel.nymag.com/imgs/daily/vulture/2016/02/10/10-gwen-stefani.w529.h529.jpg"
+},{
+  username: "Hailey",
+  email: "hailey@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1472048410/082416-hailey-baldwin-lead-2.jpg?itok=xz4b92e3"
+},{
+  username: "Harold",
+  email: "harold@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://i.imgur.com/kA3SmWq.jpg"
+},{
+  username: "Hannah",
+  email: "hannah@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3MzE1MzcxNl5BMl5BanBnXkFtZTcwNTM1MTA2OA@@._V1_UY317_CR5,0,214,317_AL_.jpg"
+},{
+  username: "Henry",
+  email: "henry@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://futhead.cursecdn.com/static/img/14/players/1625.png"
+},{
+  username: "Horatio",
+  email: "horatio@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://i9.photobucket.com/albums/a66/Sarahspy/caruso4.jpg"
+},{
+  username: "Idris",
+  email: "idris@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://www.theweeklings.com/wp-content/uploads/idris_elba_stringe_1426940c.jpg"
+},{
+  username: "Ivanka",
+  email: "ivanka@example.com",
+  password: "password",
+  password_confirmation: "password",
+  image: "http://static4.businessinsider.com/image/562a75786bb3f7746fe97efd/donald-trumps-brilliant-daughter-ivanka-is-a-businesswoman-and-mom.jpg"
 }])
