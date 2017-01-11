@@ -76,7 +76,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.web_socket_server_url = "wss://limitless-headland-58759.herokuapp.com"
-  config.action_cable.allowed_request_origins = ['https://morning-sands-69807.herokuapp.com', 'http://morning-sands-69807.herokuapp.com']
+  config.web_socket_server_url = "wss://talkr-app-api.herokuapp.com"
+  config.action_cable.allowed_request_origins = ['https://talkr-app.herokuapp.com', 'http://talkr-app.herokuapp.com']
 
 end
